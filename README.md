@@ -9,7 +9,9 @@ The company FriendlyELEC they do only offer Ubuntu with 5.4.y Linux kernel. Ther
 (replace sdx with the device name for the SD card on your computer)
 
 dd if=idbloader.img of=/dev/sdx seek=64 conv=notrunc
+
 dd if=uboot.img of=/dev/sdx seek=16384 conv=notrunc
+
 dd if=trust.img of=/dev/sdx seek=24576 conv=notrunc
 
 All the other steps, please refer to the installation manual of Rock64,

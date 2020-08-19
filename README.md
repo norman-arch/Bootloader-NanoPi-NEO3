@@ -1,10 +1,10 @@
 # NanoPi NEO3
 
-A tiny but power enough Rockchip RK3328 Soc, also less power consumption.
+A tiny Rockchip RK3328 SoC, less power consumption.
 Works perfectly in my music system as a network audio interface (HQPlayer NAA and ROON Bridge).
 
-I compiled NanoPi NEO3 bootloader images (official u-boot v2020.07 release), therefore easily get ArchLinux with customized mainline realtime kernel installed on this board.
-
+The company FriendlyELECI they do only offer Ubuntu with 5.4 kernel, therefore, I decided to compile NanoPi NEO3 bootloader images (official u-boot v2020.07 release), and finally get ArchLinux with customized mainline realtime kernel installed on this board.
+ 
 # Install to a micro SD card:
 (replace sdx with the device name for the SD card on your computer)
 
